@@ -1,6 +1,3 @@
 # Odometer_Team_3
 
-The program takes input(number of digits in the odometer) from the user 
-and generates an odometer with all the possible values stored in a vector.
-
-It then allows them to validate readings, get next and previous readings, and get all readings.
+The program takes input(number of digits in the odometer) from the user and generates an odometer with all the possible values stored in a vector. It then allows them to validate readings, get next and previous readings, and get all the readings. The number generation works as follows: the program generates the min value and icnrements it one by one to get the other values. Increments happen as follows: each position will have a local maxima and if the number has reached that maxima the number in the previous position is incremented and the current number is changes to the number in the previoous position plus one.
